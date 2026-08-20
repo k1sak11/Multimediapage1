@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    color: black;
+}
+
+/* HEADER */
+
+header {
+    text-align: center;
+    padding: 25px;
+    border-bottom: 3px double black;
+}
+
+header h1 {
+    margin: 0;
+    color: black;
+    font-family: Georgia, serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+/* MAIN */
+
+main {
+    margin: 20px 30px;
+}
+
+/* MEDIA SECTIONS */
+
+.media-section {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 25px 20px 30px;
+    margin-bottom: 25px;
+    overflow: hidden;
+    box-shadow: 5px 5px 0px black;
+}
+
+/* SECTION HEADINGS */
+
+.media-section h2 {
+    background-color: white;
+    color: black;
+    font-family: Georgia, serif;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    width: 340px;
+    padding: 10px 15px;
+    margin: 0 0 20px;
+
+    border: 2px solid black;
+    border-left: 8px solid black;
+    border-radius: 3px;
+}
+
+/* PHOTOS */
+
+.photos {
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 10px 5px;
+}
+
+.photos img {
+    width: 195px;
+    height: 195px;
+    object-fit: cover;
+
+    border: 4px double black;
+    border-radius: 15px;
+
+    margin-right: 10px;
+    vertical-align: middle;
+    padding: 4px;
+}
+
+/* AUDIO */
+
+.audios {
+    text-align: center;
+    padding: 10px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.audios audio {
+    width: 250px;
+    margin: 12px 8px;
+    vertical-align: middle;
+
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 5px;
+
+    background-color: white;
+}
+
+/* VIDEOS */
+
+.videos {
+    text-align: center;
+    padding: 10px;
+}
+
+.videos video {
+    width: 250px;
+    height: 180px;
+
+    border: 4px dashed black;
+    border-radius: 15px;
+
+    margin: 10px 8px;
+    vertical-align: middle;
+}
